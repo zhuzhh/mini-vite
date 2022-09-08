@@ -1,0 +1,20 @@
+{
+  "name": "mini-vite",
+  "version": "1.0.0",
+  "description": "mini vite",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhuzhh/mini-vite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhuzhh/mini-vite/issues"
+  },
+  "homepage": "https://github.com/zhuzhh/mini-vite#readme"
+}
