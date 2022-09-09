@@ -4,19 +4,19 @@
   "description": "mini vite",
   "main": "index.js",
   "bin": {
-    "mini-vite": "bin/min-vite"
+    "mini-vite": "bin/mini-vite"
   },
   "scripts": {
     "start": "tsup --watch",
-    "build": "tsup --minify",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsup --minify"
   },
+  "files": ["bin", "src", "package.json", "pnpm-lock.yaml", "tsconfig.json", "tsup.config.ts", "README.md"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zhuzhh/mini-vite.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "zzh",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/zhuzhh/mini-vite/issues"
