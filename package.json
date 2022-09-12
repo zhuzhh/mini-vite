@@ -8,7 +8,8 @@
   },
   "scripts": {
     "start": "tsup --watch",
-    "build": "tsup --minify"
+    "build": "tsup",
+    "build:min": "tsup --minify"
   },
   "files": ["bin", "src", "package.json", "pnpm-lock.yaml", "tsconfig.json", "tsup.config.ts", "README.md"],
   "repository": {

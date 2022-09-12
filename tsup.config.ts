@@ -1,4 +1,6 @@
-import { defineConfig } from 'tsup'
+// import { defineConfig } from 'tsup'
+import pkg from 'tsup'
+const { defineConfig } = pkg
 
 export default defineConfig({
   entry: {
